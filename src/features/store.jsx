@@ -1,10 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import dropdownReducer from "./dropdown/dropdownSlice";
+import currencyReducer from "./currencies/currencySlice";
+import themeReducer from "./theme/themeSlice";
 
 const store = configureStore({
-  reducer: {
-    dropdown: dropdownReducer,
-  },
+  reducer: { currencies: currencyReducer, theme: themeReducer },
 });
 
 export default store;

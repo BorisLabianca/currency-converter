@@ -1106,7 +1106,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/bq.png",
-      "svg": "https://flagcdn.com/bq.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/bq.png",
@@ -1872,7 +1872,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/fr.png",
-      "svg": "https://flagcdn.com/fr.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of France is composed of three equal vertical bands of blue, white and red."
     },
     "coatOfArms": {
@@ -2435,7 +2435,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/tc.png",
-      "svg": "https://flagcdn.com/tc.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -3211,7 +3211,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/nr.png",
-      "svg": "https://flagcdn.com/nr.svg",
+      "svg": "https://flagcdn.com/au.svg",
       "alt": "The flag of Nauru has a dark blue field with a thin yellow horizontal band across the center and a large white twelve-pointed star beneath the horizontal band on the hoist side of the field."
     },
     "coatOfArms": {
@@ -3958,7 +3958,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/pw.png",
-      "svg": "https://flagcdn.com/pw.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of Palau has a light blue field with a large golden-yellow circle that is offset slightly towards the hoist side of center."
     },
     "coatOfArms": {
@@ -4144,7 +4144,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/mf.png",
-      "svg": "https://flagcdn.com/mf.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -4493,7 +4493,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/me.png",
-      "svg": "https://flagcdn.com/me.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Montenegro features a large red central rectangular area surrounded by a golden-yellow border. The coat of arms of Montenegro is centered in the red rectangle."
     },
     "coatOfArms": {
@@ -4679,7 +4679,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/ee.png",
-      "svg": "https://flagcdn.com/ee.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Estonia is composed of three equal horizontal bands of blue, black and white."
     },
     "coatOfArms": {
@@ -5618,7 +5618,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/es.png",
-      "svg": "https://flagcdn.com/es.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Spain is composed of three horizontal bands of red, yellow and red, with the yellow band twice the height of the red bands. In the yellow band is the national coat of arms offset slightly towards the hoist side of center."
     },
     "coatOfArms": {
@@ -5800,7 +5800,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/mc.png",
-      "svg": "https://flagcdn.com/mc.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Monaco is composed of two equal horizontal bands of red and white."
     },
     "coatOfArms": {
@@ -6765,7 +6765,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/ax.png",
-      "svg": "https://flagcdn.com/ax.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/ax.png",
@@ -6943,7 +6943,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/ad.png",
-      "svg": "https://flagcdn.com/ad.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Andorra features three equal vertical bands of blue, yellow and red, with the coat of arms of Andorra centered in the yellow band."
     },
     "coatOfArms": {
@@ -8638,7 +8638,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/nl.png",
-      "svg": "https://flagcdn.com/nl.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of the Netherlands is composed of three equal horizontal bands of red, white and blue."
     },
     "coatOfArms": {
@@ -9574,7 +9574,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/at.png",
-      "svg": "https://flagcdn.com/at.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Austria is composed of three equal horizontal bands of red, white and red."
     },
     "coatOfArms": {
@@ -10539,7 +10539,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/mp.png",
-      "svg": "https://flagcdn.com/mp.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -12414,7 +12414,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/mh.png",
-      "svg": "https://flagcdn.com/mh.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of Marshall Islands has a blue field with two broadening adjacent diagonal bands of orange and white that extend from the lower hoist-side corner to the upper fly-side corner of the field. A large white star with twenty-four rays — four large rays at the cardinal points and twenty smaller rays — is situated in the upper hoist-side corner above the diagonal bands."
     },
     "coatOfArms": {
@@ -15241,7 +15241,7 @@
     "continents": ["South America"],
     "flags": {
       "png": "https://flagcdn.com/w320/ec.png",
-      "svg": "https://flagcdn.com/ec.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of Ecuador is composed of the horizontal bands of yellow, blue and red, with the yellow band twice the height of the other two bands. The Ecuadorian coat of arms is superimposed in the center of the field."
     },
     "coatOfArms": {
@@ -15427,7 +15427,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/sk.png",
-      "svg": "https://flagcdn.com/sk.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Slovakia is composed of three equal horizontal bands of white, blue and red. The coat of arms of Slovakia is superimposed at the center of the field slightly towards the hoist side."
     },
     "coatOfArms": {
@@ -15938,7 +15938,7 @@
     "continents": ["Asia"],
     "flags": {
       "png": "https://flagcdn.com/w320/io.png",
-      "svg": "https://flagcdn.com/io.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -17407,7 +17407,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/xk.png",
-      "svg": "https://flagcdn.com/xk.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/xk.png",
@@ -17780,7 +17780,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/it.png",
-      "svg": "https://flagcdn.com/it.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Italy is composed of three equal vertical bands of green, white and red."
     },
     "coatOfArms": {
@@ -18153,7 +18153,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/vi.png",
-      "svg": "https://flagcdn.com/vi.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -18331,7 +18331,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/lv.png",
-      "svg": "https://flagcdn.com/lv.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Latvia has a carmine-red field with a thin white horizontal band across the middle of the field."
     },
     "coatOfArms": {
@@ -18706,7 +18706,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/nf.png",
-      "svg": "https://flagcdn.com/nf.svg"
+      "svg": "https://flagcdn.com/au.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -19455,7 +19455,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/hr.png",
-      "svg": "https://flagcdn.com/hr.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Croatia is composed of three equal horizontal bands of red, white and blue, with coat of arms of Croatia superimposed in the center."
     },
     "coatOfArms": {
@@ -19634,7 +19634,7 @@
     "continents": ["Antarctica"],
     "flags": {
       "png": "https://flagcdn.com/w320/tf.png",
-      "svg": "https://flagcdn.com/tf.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/tf.png",
@@ -20015,7 +20015,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/cy.png",
-      "svg": "https://flagcdn.com/cy.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Cyprus has a white field, at the center of which is a copper-colored silhouette of the Island of Cyprus above two green olive branches crossed at the stem."
     },
     "coatOfArms": {
@@ -20767,7 +20767,7 @@
     "continents": ["Asia"],
     "flags": {
       "png": "https://flagcdn.com/w320/cx.png",
-      "svg": "https://flagcdn.com/cx.svg"
+      "svg": "https://flagcdn.com/au.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/cx.png",
@@ -21523,7 +21523,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/fi.png",
-      "svg": "https://flagcdn.com/fi.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Finland has a white field with a large blue cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
     },
     "coatOfArms": {
@@ -23670,7 +23670,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/fm.png",
-      "svg": "https://flagcdn.com/fm.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of Micronesia has a light blue field, at the center of which are four five-pointed white stars arranged in the shape of a diamond."
     },
     "coatOfArms": {
@@ -24422,7 +24422,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/pr.png",
-      "svg": "https://flagcdn.com/pr.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -24794,7 +24794,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/bl.png",
-      "svg": "https://flagcdn.com/bl.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -25151,7 +25151,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/gp.png",
-      "svg": "https://flagcdn.com/gp.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/gp.png",
@@ -26864,7 +26864,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/ie.png",
-      "svg": "https://flagcdn.com/ie.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
     },
     "coatOfArms": {
@@ -27062,7 +27062,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/lu.png",
-      "svg": "https://flagcdn.com/lu.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Luxembourg is composed of three equal horizontal bands of red, white and light blue."
     },
     "coatOfArms": {
@@ -27458,7 +27458,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/be.png",
-      "svg": "https://flagcdn.com/be.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
     },
     "coatOfArms": {
@@ -27638,7 +27638,7 @@
     "continents": ["Africa"],
     "flags": {
       "png": "https://flagcdn.com/w320/yt.png",
-      "svg": "https://flagcdn.com/yt.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -27999,7 +27999,7 @@
     "continents": ["Africa"],
     "flags": {
       "png": "https://flagcdn.com/w320/re.png",
-      "svg": "https://flagcdn.com/re.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -29485,7 +29485,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/as.png",
-      "svg": "https://flagcdn.com/as.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -29660,7 +29660,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/pm.png",
-      "svg": "https://flagcdn.com/pm.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -30417,7 +30417,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/gr.png",
-      "svg": "https://flagcdn.com/gr.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Greece is composed of nine equal horizontal bands of blue alternating with white. A blue square bearing a white cross is superimposed in the canton."
     },
     "coatOfArms": {
@@ -31163,7 +31163,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/vg.png",
-      "svg": "https://flagcdn.com/vg.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/vg.png",
@@ -31726,7 +31726,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/pt.png",
-      "svg": "https://flagcdn.com/pt.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
     },
     "coatOfArms": {
@@ -32856,7 +32856,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/sv.png",
-      "svg": "https://flagcdn.com/sv.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of El Salvador is composed of three equal horizontal bands of cobalt blue, white and cobalt blue, with the national coat of arms centered in the white band."
     },
     "coatOfArms": {
@@ -34897,7 +34897,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/va.png",
-      "svg": "https://flagcdn.com/va.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Vatican City is square shaped. It is composed of two equal vertical bands of yellow and white, with national coat of arms centered in the white band. The national coat of arms comprises the Papal Tiara superimposed on two crossed keys."
     },
     "coatOfArms": {
@@ -35823,7 +35823,7 @@
     "continents": ["South America"],
     "flags": {
       "png": "https://flagcdn.com/w320/gf.png",
-      "svg": "https://flagcdn.com/gf.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/gf.png",
@@ -36936,7 +36936,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/gu.png",
-      "svg": "https://flagcdn.com/gu.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/gu.png",
@@ -40306,7 +40306,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/de.png",
-      "svg": "https://flagcdn.com/de.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
     },
     "coatOfArms": {
@@ -41288,7 +41288,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/tl.png",
-      "svg": "https://flagcdn.com/tl.svg",
+      "svg": "https://flagcdn.com/us.svg",
       "alt": "The flag of Timor-Leste has a red field with two isosceles triangles which share a common base on the hoist end. The smaller black triangle, which bears a five-pointed white star at its center and spans one-third the width of the field, is superimposed on the larger yellow triangle that extends to the center of the field."
     },
     "coatOfArms": {},
@@ -42013,7 +42013,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/mt.png",
-      "svg": "https://flagcdn.com/mt.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Malta is composed of two equal vertical bands of white and red. A representation of the George cross edged in red is situated on the upper hoist-side corner of the white band."
     },
     "coatOfArms": {
@@ -43492,7 +43492,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/ki.png",
-      "svg": "https://flagcdn.com/ki.svg",
+      "svg": "https://flagcdn.com/au.svg",
       "alt": "The flag of Kiribati is divided into two halves. While the upper half has a red field, at the center of which is a yellow frigate bird flying over the top half of a rising yellow sun with seventeen visible rays, the lower half is composed of six horizontal wavy bands of white alternating with blue to depict the ocean."
     },
     "coatOfArms": {
@@ -44051,7 +44051,7 @@
     "continents": ["Oceania"],
     "flags": {
       "png": "https://flagcdn.com/w320/um.png",
-      "svg": "https://flagcdn.com/um.svg"
+      "svg": "https://flagcdn.com/us.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
@@ -44227,7 +44227,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/si.png",
-      "svg": "https://flagcdn.com/si.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
     },
     "coatOfArms": {
@@ -44407,7 +44407,7 @@
     "continents": ["North America"],
     "flags": {
       "png": "https://flagcdn.com/w320/mq.png",
-      "svg": "https://flagcdn.com/mq.svg"
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg"
     },
     "coatOfArms": {
       "png": "https://mainfacts.com/media/images/coats_of_arms/mq.png",
@@ -44960,7 +44960,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/sm.png",
-      "svg": "https://flagcdn.com/sm.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of San Marino is composed of two equal horizontal bands of white and light blue, with the national coat of arms superimposed in the center."
     },
     "coatOfArms": {
@@ -46850,7 +46850,7 @@
     "continents": ["Europe"],
     "flags": {
       "png": "https://flagcdn.com/w320/lt.png",
-      "svg": "https://flagcdn.com/lt.svg",
+      "svg": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1676974337/Flag_of_Europe_kdn31e.svg",
       "alt": "The flag of Lithuania is composed of three equal horizontal bands of yellow, green and red."
     },
     "coatOfArms": {
@@ -47223,7 +47223,7 @@
     "continents": ["Asia"],
     "flags": {
       "png": "https://flagcdn.com/w320/cc.png",
-      "svg": "https://flagcdn.com/cc.svg"
+      "svg": "https://flagcdn.com/au.svg"
     },
     "coatOfArms": {},
     "startOfWeek": "monday",
