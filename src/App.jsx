@@ -4,7 +4,7 @@ import logo from "./assets/currency_converter_logo.svg";
 import { FaExchangeAlt, FaInfoCircle } from "react-icons/fa";
 import axios from "axios";
 
-import CountrySelector from "./components/countrySelector";
+import CountrySelector from "./components/CountrySelector";
 import CurrencyExchangeExamples from "./components/CurrencyExchangeExamples";
 import ThemeSwitch from "./components/ThemeSwitch";
 import DisplayResults from "./components/DisplayResults";
