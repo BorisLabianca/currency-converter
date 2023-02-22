@@ -22,9 +22,9 @@ const CountrySelector = ({ use }) => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
-        !myDiv1Ref.current.contains(event.target) &&
-        !menu1Ref.current.contains(event.target) &&
-        !inputRef.current.contains(event.target)
+        !myDiv1Ref.current?.contains(event.target) &&
+        !menu1Ref.current?.contains(event.target) &&
+        !inputRef.current?.contains(event.target)
       ) {
         setOpen(false);
         setInputValue("");

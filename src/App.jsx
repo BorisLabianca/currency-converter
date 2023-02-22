@@ -17,7 +17,7 @@ import {
 function App() {
   const dispatch = useDispatch();
   const { theme } = useSelector((store) => store.theme);
-  const { fromCurrency, toCurrency, amount, rate1, rate2 } = useSelector(
+  const { fromCurrency, toCurrency, amount, rate1 } = useSelector(
     (store) => store.currencies
   );
   const handleClick = async () => {
