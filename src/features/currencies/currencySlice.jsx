@@ -14,6 +14,8 @@ const initialState = {
     currency: "",
     symbol: "",
   },
+  rate1: "",
+  rate2: "",
 };
 
 const currencySlice = createSlice({
@@ -42,15 +44,33 @@ const currencySlice = createSlice({
       newCurrency.symbol = payload.symbol;
       state.toCurrency = newCurrency;
     },
+    setRate1: (state, action) => {
+      const { payload } = action;
+      state.rate1 = payload;
+    },
+    setRate2: (state, action) => {
+      const { payload } = action;
+      state.rate2 = payload;
+    },
     switchCurrency: (state) => {
       const newFromCurrency = { ...state.fromCurrency };
       const newToCurrency = { ...state.toCurrency };
+      const newRate1 = state.rate1;
+      const newRate2 = state.rate2;
       state.fromCurrency = newToCurrency;
       state.toCurrency = newFromCurrency;
+      state.rate1 = newRate2;
+      state.rate2 = newRate1;
     },
   },
 });
 
-export const { setAmount, setFromCurrency, setToCurrency, switchCurrency } =
-  currencySlice.actions;
+export const {
+  setAmount,
+  setFromCurrency,
+  setToCurrency,
+  switchCurrency,
+  setRate1,
+  setRate2,
+} = currencySlice.actions;
 export default currencySlice.reducer;
