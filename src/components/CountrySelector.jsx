@@ -6,11 +6,13 @@ import {
   setFromCurrency,
   setToCurrency,
   setAmount,
+  setRate1,
+  setRate2,
 } from "../features/currencies/currencySlice";
 
 const CountrySelector = ({ use }) => {
   const dispatch = useDispatch();
-  const { fromCurrency, toCurrency, amount } = useSelector(
+  const { fromCurrency, toCurrency, amount, rate1 } = useSelector(
     (store) => store.currencies
   );
   const myDiv1Ref = useRef();
@@ -35,6 +37,47 @@ const CountrySelector = ({ use }) => {
       document.removeEventListener("click", handleClickOutside);
     };
   }, []);
+
+  const handleSelect = (country) => {
+    if (use == "From") {
+      if (
+        Object.keys(country.currencies)[0].toLowerCase() !==
+        fromCurrency.threeLetters
+      ) {
+        dispatch(
+          setFromCurrency({
+            flag: country.flags.svg,
+            threeLetters: Object.keys(country.currencies)[0],
+            currency:
+              country.currencies[Object.keys(country.currencies)[0]].name,
+            symbol:
+              country.currencies[Object.keys(country.currencies)[0]].symbol,
+          })
+        );
+      }
+    } else if (use == "To") {
+      if (
+        Object.keys(country.currencies)[0].toLowerCase() !==
+        toCurrency.threeLetters
+      ) {
+        dispatch(
+          setToCurrency({
+            flag: country.flags.svg,
+            threeLetters: Object.keys(country.currencies)[0],
+            currency:
+              country.currencies[Object.keys(country.currencies)[0]].name,
+            symbol:
+              country.currencies[Object.keys(country.currencies)[0]].symbol,
+          })
+        );
+      }
+    }
+    if (rate1) {
+      dispatch(setRate1(""));
+      dispatch(setRate2(""));
+    }
+    setInputValue("");
+  };
 
   return (
     <div className="flex flex-col gap-2 relative w-full">
@@ -114,7 +157,7 @@ const CountrySelector = ({ use }) => {
               open
                 ? "max-h-60 bg-white rounded-lg w-full border dark:bg-gray-900 dark:text-gray-100 ease-in-out duration-300 dark:border-gray-900"
                 : "max-h-0 w-full"
-            } duration-300 absolute top-8 flex flex-col z-10 overflow-y-auto`}
+            } duration-300 absolute top-20 flex flex-col z-10 overflow-y-auto`}
           >
             <div
               className={`w-full h-10 flex items-center px-2 sticky top-0 bg-white dark:bg-gray-900 ease-in-out duration-300 dark:text-gray-100 mb-8`}
@@ -146,6 +189,9 @@ const CountrySelector = ({ use }) => {
                         Object.keys(country.currencies)[0]
                       ].name
                         .toLowerCase()
+                        .includes(inputValue) ||
+                      Object.keys(country.currencies)[0]
+                        .toLowerCase()
                         .includes(inputValue)
                         ? "block"
                         : "hidden"
@@ -162,48 +208,7 @@ const CountrySelector = ({ use }) => {
                           "bg-sky-600 text-white ease-in-out duration-300 dark:bg-gray-600 dark:text-gray-100"
                     }`}
                     onClick={() => {
-                      if (use == "From") {
-                        if (
-                          Object.keys(country.currencies)[0].toLowerCase() !==
-                          fromCurrency.threeLetters
-                        ) {
-                          dispatch(
-                            setFromCurrency({
-                              flag: country.flags.svg,
-                              threeLetters: Object.keys(country.currencies)[0],
-                              currency:
-                                country.currencies[
-                                  Object.keys(country.currencies)[0]
-                                ].name,
-                              symbol:
-                                country.currencies[
-                                  Object.keys(country.currencies)[0]
-                                ].symbol,
-                            })
-                          );
-                        }
-                      } else if (use == "To") {
-                        if (
-                          Object.keys(country.currencies)[0].toLowerCase() !==
-                          toCurrency.threeLetters
-                        ) {
-                          dispatch(
-                            setToCurrency({
-                              flag: country.flags.svg,
-                              threeLetters: Object.keys(country.currencies)[0],
-                              currency:
-                                country.currencies[
-                                  Object.keys(country.currencies)[0]
-                                ].name,
-                              symbol:
-                                country.currencies[
-                                  Object.keys(country.currencies)[0]
-                                ].symbol,
-                            })
-                          );
-                        }
-                      }
-                      setInputValue("");
+                      handleSelect(country);
                     }}
                   >
                     <div className="w-6 border h-4">

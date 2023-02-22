@@ -1,6 +1,6 @@
 # Currency Converter
 
-<img width="1840" alt="Capture d’écran 2023-02-01 à 18 35 54" src="https://user-images.githubusercontent.com/114598539/219964137-e4309168-a764-46d3-8b75-07af3f3f23d6.png">
+<img width="1840" alt="Capture d’écran" src="https://user-images.githubusercontent.com/114598539/220685893-96535907-eedc-4888-8cd7-f8c9ce7027ea.gif">
 
 ## Techs Used
 
@@ -16,5 +16,7 @@
 
 ## Features
 
+- Call to exchangerate api to get rates
+- Switch currencies
+- Custom-made country selector
 - Dark mode
--
