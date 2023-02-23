@@ -84,14 +84,14 @@ const CountrySelector = ({ use }) => {
       <div className="font-bold dark:text-gray-100">{use}</div>
       {use === "Amount" ? (
         <div>
-          <div className="border-solid border border-gray-300 rounded-lg h-12 p-3 flex w-full justify-between items-center shadow-sm bg-white ease-in-out duration-300 dark:bg-gray-900 dark:border-gray-900">
+          <div className="border-solid border border-gray-300 rounded-lg h-12 p-3 flex w-full justify-between items-center shadow-sm bg-white ease-in-out duration-200 dark:bg-gray-900 dark:border-gray-900">
             <span className="dark:text-gray-100">
               {fromCurrency.currency && fromCurrency.symbol}
             </span>
             <input
               type="text"
               placeholder="Enter an amount"
-              className="outline-none h-full w-11/12 bg-white ease-in-out duration-300 dark:bg-gray-900 dark:text-gray-100 dark:placeholder:text-gray-100"
+              className="outline-none h-full w-11/12 bg-white ease-in-out duration-200 dark:bg-gray-900 dark:text-gray-100 dark:placeholder:text-gray-100"
               value={amount}
               onChange={(event) => {
                 dispatch(setAmount(event.target.value));
@@ -102,7 +102,7 @@ const CountrySelector = ({ use }) => {
       ) : (
         <>
           <div
-            className="border-solid border border-gray-300 rounded-lg h-12 p-3 flex w-full justify-between items-center shadow-sm cursor-pointer bg-white dark:bg-gray-900 ease-in-out duration-300 dark:text-gray-100 dark:border-gray-900"
+            className="border-solid border border-gray-300 rounded-lg h-12 p-3 flex w-full justify-between items-center shadow-sm cursor-pointer bg-white dark:bg-gray-900 ease-in-out duration-200 dark:text-gray-100 dark:border-gray-900"
             ref={myDiv1Ref}
             onClick={() => {
               setOpen(!open);
@@ -140,7 +140,7 @@ const CountrySelector = ({ use }) => {
                 }`}</div>
               </div>
             ) : (
-              <div className="text-gray-400 ease-in-out duration-300 dark:text-gray-100">
+              <div className="text-gray-400 ease-in-out duration-200 dark:text-gray-100">
                 Select a country
               </div>
             )}
@@ -149,28 +149,28 @@ const CountrySelector = ({ use }) => {
                 setOpen(!open);
                 inputRef.current.focus();
               }}
-              className={`${open && "rotate-180"} ease-in-out duration-300`}
+              className={`${open && "rotate-180"} ease-in-out duration-200`}
             />
           </div>
           <div
             className={`${
               open
-                ? "max-h-60 bg-white rounded-lg w-full border dark:bg-gray-900 dark:text-gray-100 ease-in-out duration-300 dark:border-gray-900"
+                ? "max-h-60 bg-white rounded-lg w-full border dark:bg-gray-900 dark:text-gray-100 ease-in-out duration-200 dark:border-gray-900"
                 : "max-h-0 w-full"
-            } duration-300 absolute top-20 flex flex-col z-10 overflow-y-auto`}
+            } duration-200 absolute top-20 flex flex-col z-10 overflow-y-auto`}
           >
             <div
-              className={`w-full h-10 flex items-center px-2 sticky top-0 bg-white dark:bg-gray-900 ease-in-out duration-300 dark:text-gray-100 mb-8`}
+              className={`w-full h-10 flex items-center px-2 sticky top-0 bg-white dark:bg-gray-900 ease-in-out duration-200 dark:text-gray-100 mb-8`}
               ref={menu1Ref}
             >
-              <FaSearch className="text-gray-400 ease-in-out duration-300 bg-white dark:bg-gray-900 dark:text-gray-100" />
+              <FaSearch className="text-gray-400 ease-in-out duration-200 bg-white dark:bg-gray-900 dark:text-gray-100" />
               <input
                 type="text"
                 value={inputValue}
                 onChange={(event) => {
                   setInputValue(event.target.value.toLowerCase());
                 }}
-                className="placeholder:text-gray-400 ease-in-out duration-300 w-full p-2 outline-none dark:bg-gray-900 dark:text-gray-100"
+                className="placeholder:text-gray-400 ease-in-out duration-200 w-full p-2 outline-none dark:bg-gray-900 dark:text-gray-100"
                 placeholder={
                   use === "Amount" ? "Enter an amount" : "Enter a country name"
                 }
@@ -183,7 +183,7 @@ const CountrySelector = ({ use }) => {
                 return (
                   <div
                     key={index}
-                    className={`p-3 text-sm hover:bg-sky-600 hover:text-white dark:hover:bg-gray-600 ease-in-out duration-300 dark:hover:text-gray-100 flex gap-2 cursor-pointer ${
+                    className={`p-3 text-sm hover:bg-sky-600 hover:text-white dark:hover:bg-gray-600 ease-in-out duration-200 dark:hover:text-gray-100 flex gap-2 cursor-pointer ${
                       country.name.common.toLowerCase().includes(inputValue) ||
                       country.currencies[
                         Object.keys(country.currencies)[0]
@@ -200,12 +200,12 @@ const CountrySelector = ({ use }) => {
                       fromCurrency.currency &&
                       Object.keys(country.currencies)[0].toLowerCase() ===
                         fromCurrency?.threeLetters.toLowerCase()
-                        ? "bg-sky-600 text-white ease-in-out duration-300 dark:bg-gray-600 dark:text-gray-100"
+                        ? "bg-sky-600 text-white ease-in-out duration-200 dark:bg-gray-600 dark:text-gray-100"
                         : use === "To" &&
                           toCurrency.currency &&
                           Object.keys(country.currencies)[0].toLowerCase() ===
                             toCurrency?.threeLetters.toLowerCase() &&
-                          "bg-sky-600 text-white ease-in-out duration-300 dark:bg-gray-600 dark:text-gray-100"
+                          "bg-sky-600 text-white ease-in-out duration-200 dark:bg-gray-600 dark:text-gray-100"
                     }`}
                     onClick={() => {
                       handleSelect(country);

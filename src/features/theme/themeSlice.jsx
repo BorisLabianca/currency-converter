@@ -1,16 +1,22 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+const getTheme = () => {
+  if (localStorage.getItem("theme")) {
+    return localStorage.getItem("theme");
+  } else {
+    return "system";
+  }
+};
 const initialState = {
-  theme: "light",
+  theme: getTheme(),
 };
 
 const themeSlice = createSlice({
   name: "theme",
   initialState: initialState,
   reducers: {
-    switchTheme: (state) => {
-      if (state.theme === "light") state.theme = "dark";
-      else state.theme = "light";
+    switchTheme: (state, action) => {
+      const { payload } = action;
+      state.theme = payload;
     },
   },
 });
