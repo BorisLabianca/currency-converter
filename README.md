@@ -1,6 +1,6 @@
 # Currency Converter
 
-<img width="1840" alt="Capture d’écran" src="https://user-images.githubusercontent.com/114598539/220685893-96535907-eedc-4888-8cd7-f8c9ce7027ea.gif">
+<img width="1840" alt="Capture d’écran" src="https://user-images.githubusercontent.com/114598539/220956028-b6758d2a-b82d-4c20-9585-5dcb95b582f5.gif">
 
 ## Techs Used
 
@@ -19,4 +19,4 @@
 - Call to exchangerate api to get rates
 - Switch currencies
 - Custom-made country selector
-- Dark mode
+- Dark mode supporting system preference and manual selection
