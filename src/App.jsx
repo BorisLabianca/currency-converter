@@ -1,41 +1,17 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import "./App.css";
 import logo from "./assets/currency_converter_logo.svg";
-import { FaExchangeAlt, FaInfoCircle } from "react-icons/fa";
-import axios from "axios";
+import { FaInfoCircle } from "react-icons/fa";
 
 import CountrySelector from "./components/CountrySelector";
 import CurrencyExchangeExamples from "./components/CurrencyExchangeExamples";
 import ThemeSwitch from "./components/ThemeSwitch";
 import DisplayResults from "./components/DisplayResults";
-import {
-  switchCurrency,
-  setRate1,
-  setRate2,
-} from "./features/currencies/currencySlice";
+import ConvertButton from "./components/ConvertButton";
+import SwitchButton from "./components/SwitchButton";
 
 function App() {
-  const dispatch = useDispatch();
-  const { fromCurrency, toCurrency, amount, rate1 } = useSelector(
-    (store) => store.currencies
-  );
-  const handleClick = async () => {
-    try {
-      const response1 = await axios.get(
-        `https://api.exchangerate.host/convert?from=${fromCurrency.threeLetters}&to=${toCurrency.threeLetters}`
-      );
-      dispatch(setRate1(response1.data.info.rate));
-      const response2 = await axios.get(
-        `https://api.exchangerate.host/convert?from=${toCurrency.threeLetters}&to=${fromCurrency.threeLetters}`
-      );
-      dispatch(setRate2(response2.data.info.rate));
-    } catch (error) {
-      console.log(error);
-    }
-  };
-  const handleSwitchCurrencies = async () => {
-    dispatch(switchCurrency());
-  };
+  const { rate1 } = useSelector((store) => store.currencies);
 
   return (
     <div className="App">
@@ -59,27 +35,12 @@ function App() {
           <div className="flex flex-col lg:flex-row w-full gap-4 lg:items-baseline">
             <CountrySelector use={"Amount"} />
             <CountrySelector use={"From"} />
-            <div
-              className="rounded-full border border-solid border-gray-300 w-12 h-12 flex justify-center items-center cursor-pointer ease-in-out duration-200 self-stretch flex-shrink-0 dark:bg-gray-900 dark:text-white dark:border-gray-900 lg:self-end"
-              onClick={handleSwitchCurrencies}
-            >
-              <FaExchangeAlt className="text-blue-500 rotate-90 ease-in-out duration-200 dark:text-gray-100 lg:rotate-0" />
-            </div>
+            <SwitchButton />
             <CountrySelector use={"To"} />
           </div>
 
           <div className="flex flex-col gap-4 md:flex-row-reverse justify-between w-full">
-            <button
-              disabled={
-                !fromCurrency.currency || !toCurrency.currency || !amount
-                  ? true
-                  : false
-              }
-              className={`bg-blue-600 rounded-lg h-12 p-3 flex w-full justify-center items-center shadow-sm cursor-pointer text-white text-2xl font-bold disabled:bg-blue-300 disabled:text-gray-400 dark:bg-gray-900 dark:disabled:bg-gray-800 dark:text-gray-100 ease-in-out duration-200 dark:disabled:text-gray-500 md:w-48 flex-shrink-0`}
-              onClick={handleClick}
-            >
-              Convert
-            </button>
+            <ConvertButton />
             <div className="flex flex-col gap-4">
               {rate1 && <DisplayResults />}
               <div className="flex gap-2 bg-blue-50 p-3 items-center rounded-lg dark:bg-gray-900 ease-in-out duration-200 dark:text-gray-100">

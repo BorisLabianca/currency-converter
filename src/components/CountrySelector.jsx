@@ -9,12 +9,14 @@ import {
   setRate1,
   setRate2,
 } from "../features/currencies/currencySlice";
+import { RotatingLines } from "react-loader-spinner";
 
 const CountrySelector = ({ use }) => {
   const dispatch = useDispatch();
   const { fromCurrency, toCurrency, amount, rate1 } = useSelector(
     (store) => store.currencies
   );
+  const { loading } = useSelector((store) => store.loading);
   const myDiv1Ref = useRef();
   const menu1Ref = useRef();
   const inputRef = useRef();
@@ -83,7 +85,7 @@ const CountrySelector = ({ use }) => {
     <div className="flex flex-col gap-2 relative w-full">
       <div className="font-bold dark:text-gray-100">{use}</div>
       {use === "Amount" ? (
-        <div>
+        <div className="relative">
           <div className="border-solid border border-gray-300 rounded-lg h-12 p-3 flex w-full justify-between items-center shadow-sm bg-white ease-in-out duration-200 dark:bg-gray-900 dark:border-gray-900">
             <span className="dark:text-gray-100">
               {fromCurrency.currency && fromCurrency.symbol}
@@ -98,6 +100,17 @@ const CountrySelector = ({ use }) => {
               }}
             />
           </div>
+          {loading && (
+            <div className="absolute top-2.5 right-3">
+              <RotatingLines
+                strokeColor="grey"
+                strokeWidth="5"
+                animationDuration="0.75"
+                width="30"
+                visible={true}
+              />
+            </div>
+          )}
         </div>
       ) : (
         <>
@@ -160,7 +173,7 @@ const CountrySelector = ({ use }) => {
             } duration-200 absolute top-20 flex flex-col z-10 overflow-y-auto`}
           >
             <div
-              className={`w-full h-10 flex items-center px-2 sticky top-0 bg-white dark:bg-gray-900 ease-in-out duration-200 dark:text-gray-100 mb-8`}
+              className={`w-full h-10 flex items-center px-2 sticky top-0 bg-white dark:bg-gray-900 ease-in-out duration-200 dark:text-gray-100 mb-6`}
               ref={menu1Ref}
             >
               <FaSearch className="text-gray-400 ease-in-out duration-200 bg-white dark:bg-gray-900 dark:text-gray-100" />
